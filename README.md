@@ -1,10 +1,13 @@
 # RigidBodyIB
 Rigid Body Immersed Boundary Method
-This code accompanies the paper:
-"An immersed boundary method for rigid bodies", B. Kallemov and A. Pal Singh Bhalla and B. E. Griffith and A. Donev, submitted to Comput. Methods Appl. Mech. Engrg., 2015
-where the notation and ideas are explained.
+
+This code provides implementations of the empirical fits to the marker-marker (blob-blob) mobility described in the Appendices in the paper:
+
+**An immersed boundary method for rigid bodies**, B. Kallemov and A. Pal Singh Bhalla and B. E. Griffith and A. Donev, Communications in Applied Mathematics and Computational Science, **11(1)**, 79-141 (2016)
+[DOI](http://dx.doi.org/10.2140/camcos.2016.11.79) [arXiv](http://arxiv.org/abs/1602.02170)
+
 These fits are made available to other users of the IB method -- let us know if they are useful or if you find problems.
-We expect to release the complete code as part of the IBAMR library in the near future.
+This code is now part of the [IBAMR library](https://github.com/ibamr/ibamr).
  
 For steady Stokes flow (beta=infinity) fitting coefficients are available for the
 3 (Roma+Peskin), 4 (Peskin) and 6 (Bao+Peskin) point kernels
